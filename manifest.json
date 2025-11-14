@@ -1,0 +1,27 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Step earn",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Step earn",
+  "start_url": "/",
+  "theme_color": "#ff0000",
+  "icons": [
+    {
+      "src": "https://amritramgarhiaa.github.io/vite.svg",
+      "type": "image/svg+xml",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "Step.earn",
+  "description": "Walk and earn with app"
+}
