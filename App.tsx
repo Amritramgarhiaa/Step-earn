@@ -16,6 +16,15 @@ const App: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
   const [withdrawRequests, setWithdrawRequests] = useState<WithdrawRequest[]>([]);
 
+  // Handle deep linking from PWA shortcuts
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const screenParam = urlParams.get('screen');
+    if (screenParam && Object.values(Screen).includes(screenParam as Screen)) {
+      setActiveScreen(screenParam as Screen);
+    }
+  }, []); // Empty dependency array ensures this runs only once on mount
+
   // Mock Authentication
   const handleLogin = (email: string, name: string) => {
     const today = new Date().toISOString().split('T')[0];
