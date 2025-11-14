@@ -1,13 +1,13 @@
 {
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "Step earn",
-  "orientation": "any",
-  "scope": "/",
+  "orientation": "landscape",
+  "scope": "/amritramgarhiaa.github.io/Step-earn/",
   "short_name": "Step earn",
-  "start_url": "/",
-  "theme_color": "#ff0000",
+  "start_url": "/amritramgarhiaa.github.io/Step-earn/",
+  "theme_color": "#06b6d4",
   "icons": [
     {
       "src": "https://amritramgarhiaa.github.io/vite.svg",
@@ -23,5 +23,32 @@
     }
   ],
   "id": "Step.earn",
-  "description": "Walk and earn with app"
+  "description": "Walk and earn",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "minimal-ui",
+    "window-controls-overlay",
+    "fullscreen",
+    "standalone"
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://amritramgarhiaa.github.io/Step-earn/",
+      "id": ""
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "",
+      "url": "https://amritramgarhiaa.github.io/Step-earn/",
+      "description": ""
+    }
+  ],
+  "categories": [
+    "business",
+    "education",
+    "entertainment"
+  ]
 }
