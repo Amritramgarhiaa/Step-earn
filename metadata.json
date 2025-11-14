@@ -1,0 +1,5 @@
+{
+  "name": "StepsEarn Web Simulator",
+  "description": "A web-based simulator for the StepsEarn application concept. Users can simulate earning coins from steps, redeem them by watching mock ads, and manage a virtual wallet. This version uses React and Tailwind CSS and includes a Gemini-powered fitness tip generator.",
+  "requestFramePermissions": []
+}
